@@ -1,0 +1,72 @@
+.author{
+  font-weight:bold;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.title{
+  font-weight:bold;
+  font-size:1.4rem;
+}
+
+.text{
+  width:500px;
+  margin-bottom:10px;
+}
+
+video{
+  margin:0;
+  display:block;
+  width : 100%;
+  height : 100%;
+  z-index : 5;
+  position : fixed;
+  top:0; bottom:0; left:0; right:0;
+}
+
+img{
+  height : 300px;
+}
+
+span{
+  margin:0 auto;
+  display:block;
+  text-align:center;
+}
+
+p{
+  font-family : "Courier 12", Courier, monospace;
+  font-weight : 400;
+  font-size : 12pt;
+}
+
+body{
+  margin:0;
+}
+
+html,body{
+  height : 100%;
+  overflow-x : hidden;
+}
+
+#start.fade{
+  opacity :0;
+}
+
+#start{
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  height : 20px;
+  width : 60px;
+  border:3px solid #333;
+  text-align:center;
+  padding:10px 20px;
+  border-radius: 3px;
+  transition : 1s all ease;
+}
+
+#down{
+  padding-bottom:200px;
+  margin: 0 20px;
+}
