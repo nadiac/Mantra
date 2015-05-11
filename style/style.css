@@ -26,6 +26,8 @@ video{
 
 img{
   height : 300px;
+  display : block;
+  margin : auto;
 }
 
 span{
@@ -51,6 +53,7 @@ html,body{
 
 #start.fade{
   opacity :0;
+  cursor:none;
 }
 
 #start{
@@ -64,6 +67,7 @@ html,body{
   padding:10px 20px;
   border-radius: 3px;
   transition : 1s all ease;
+  cursor:pointer;
 }
 
 #down{

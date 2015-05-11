@@ -30,11 +30,14 @@ function DialogWriter(){
     }
   }
   
+  var type = document.getElementById("type");
   function writer(phrase){
+    type.play();
     dialog.write({name : "actor", args : ["Mod"]})
           .write({name : "say", args : [phrase]})
           .write({name : "call", args : [function(){
             var mem = document.getElementById("memory");
+            type.pause();
             dialog.on("say:end", function(){
               document.body.scrollTop = document.body.scrollHeight;
             });

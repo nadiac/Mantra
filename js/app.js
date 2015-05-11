@@ -1,6 +1,6 @@
 var text = [
-  '"Entra Tucidide con passo calmo, 80 anni, folti capelli ricci e barba bianca, vestito di una tunica porpora."',
-  '"Daniel Defoe (62 anni, una parrucca unta e traballante sulla testa e un blocco di fogli scritti in mano) entra trafelato ed ansimante."',
+  'Entra Tucidide con passo calmo, 80 anni, folti capelli ricci e barba bianca, vestito di una tunica color porpora.',
+  'Daniel Defoe (62 anni, una parrucca unta e traballante sulla testa e un blocco di fogli scritti in mano) entra trafelato ed ansimante.',
   "<span class='author'>DEFOE</span>",
   "<span class='text'>Ho davvero una grande idea per il mio prossimo romanzo. Persone che soffrono, malattia, morte e disperazione. Il pubblico lo amerà!</span>",
   "<span class='author'>TUCIDIDE</span>",
@@ -8,7 +8,7 @@ var text = [
   "<span class='author'>DEFOE</span>",
   "<span class='text'>Oh, caro Tucidide, le porto una di quelle notizie che non ha pari nel render lieto uno scrittore!</span>",
   "<span class='author'>TUCIDIDE</span>",
-  "<span class='text'>Sento odor di buone idee, amico Defoe</span>",
+  "<span class='text'>Sento odor di buone idee, amico Defoe.</span>",
   "<span class='author'>DEFOE</span>",
   "<span class='text'>Ottime idee! Scriverò di un tema nuovo, inedito!</span>",
   "<span class='author'>TUCIDIDE</span>",
@@ -16,8 +16,8 @@ var text = [
   "<span class='author'>DEFOE</span>",
   "<span class='text'>No! Tenetevi forte caro Tucidide...parlerò della peste!</span>",
   "<span class='author'>TUCIDIDE</span>",
-  "<span class='text'>Un tema nuovo questo? Io ne ho scritto già io nel V secolo avanti Cristo, e diciamo che già ai tempi non era questa grande novità...</span>",
-  '"Vedono passare il medico della peste"',
+  "<span class='text'>Un tema nuovo questo? Io ne ho scritto già nel V secolo avanti Cristo, e diciamo che già a quei tempi non era questa grande novità...</span>",
+  'Il medico della peste passa in lontananza.',
   "<span class='author'>TUCIDIDE</span>",
   "<span class='text'>Oh che creatura è mai questa?</span>",
   "<span class='author'>DEFOE</span>",
@@ -25,15 +25,15 @@ var text = [
   "<span class='author'>TUCIDIDE</span>",
   "<span class='text'>Ci sarà forse qualche caso di peste in giro? È per questo che volete scrivere di peste?</span>",
   "<span class='author'>DEFOE</span>",
-  "<span class='text'>Avevo sentito di qualche caso a Marsiglia, ma non pensavo certo sarebbe arrivata qui! Oh la peste...si scaglieranno su di noi dardi infuocati, incendi bruceranno le nostre città, e i quattro cavalieri dell’Apocalisse giungeranno infine a porre sollievo a tutte le nostre sofferenze!</span>",
+  "<span class='text'>Avevo sentito di qualche caso a Marsiglia, ma non pensavo certo sarebbe arrivata qui!</br> Oh la peste...si scaglieranno su di noi dardi infuocati, incendi bruceranno le nostre città, e i quattro cavalieri dell’Apocalisse giungeranno infine a porre sollievo a tutte le nostre sofferenze!</span>",
   "<span class='author'>TUCIDIDE</span>",
-  "<span class='text'>Defoe, ma voi l’avete mai vista, davvero, la peste?</span>",
+  "<span class='text'>Defoe, Defoe, ma voi l’avete mai vista, davvero, la peste?</span>",
   "<span class='author'>DEFOE</span>",
   "<span class='text'>Ehm.. in realtà no..ero un bambino, ecco..</span>",
   "<span class='author'>TUCIDIDE</span>",
-  "<span class='text'>Beh allora è proprio una bella occasione per voi, amico Defoe. Non si può scriver bene di qualcosa se non la si conosce. Potrà visitare i malati, potrà vedere i lazzaretti...</span>",
+  "<span class='text'>Beh diciamo che allora è proprio una bella occasione per voi, amico Defoe. Non si può scriver bene di qualcosa se non la si conosce. Potrà visitare i malati, potrà vedere i lazzaretti...</span>",
   "<span class='author'>DEFOE</span>",
-  "<span class='text'>(incerto) Io non ne ho di certo bisogno, la mia immaginazione saprà creare di meglio.</span>",
+  "<span class='text'>(incerto) Io non ne ho di certo bisogno, la mia immaginazione saprà creare di meglio ecco.</span>",
   "<span class='author'>TUCIDIDE</span>",
   "<span class='text'>Ma come, uno scrittore che ha paura\
   di informarsi su ciò di cui vuole\
@@ -48,14 +48,14 @@ var text = [
   tutto per una prosa chiara ed\
   onesta. E poi di cosa può aver\
   paura lei, che è stato pure in\
-  prigione.</span>",
-  '"Defoe trasale"',
+  prigione?</span>",
+  'Defoe trasale.',
   "<span class='author'>DEFOE</span>",
   "<span class='text'>(impaurito) Ma che peste, ehm, scherzavo! Un\
   argomento di altri tempi, ci vuole\
   qualcosa di più moderno, per i\
   londinesi. Come ad esempio, ecco...</span>",
-  "'Entra il medico della peste'",
+  "Entra il medico della peste.",
   "<span class='author'>DEFOE</span>",
   "<span class='text'>Si allontani da qui, se ne vada o\
   contagerà anche noi! Oh no qui è\
@@ -67,13 +67,15 @@ var text = [
   apposta per evitare ogni contagio.</span>",
   "<span class='author'>TUCIDIDE</span>",
   "<span class='text'>Io non so come fa a credere che quello\
-  stano costume possa aiutarla. Le\
+  strano costume la possa aiutare. Le\
   assicuro signor medico che non c’è\
   arte umana che possa inibire la\
-  potenza della morbo. Non lo può la\
+  potenza del morbo. Non lo può la\
   medicina e non lo può nemmeno la\
   scrittura.</span>",
-  "<span class='title'>COME NARRARE IL MORBO</span>"
+  "<span class='title'>COME NARRARE IL MORBO</span>",
+  "GRASSA RISATA DI TUCIDIDE",
+  'Tucidide e Defoe si impauriscono.'
 ];
 
 var video = document.createElement("video");
@@ -93,6 +95,8 @@ var pdoc = document.createElement("img");
 pdoc.src = "src/pdoc.jpg";
 
 window.onload = function () {
+
+  document.getElementById("type").volume = 0.2;
   var dialog = new DialogWriter();  
   var sync = new Synchronizer();
   console.log(text.length);
@@ -106,7 +110,7 @@ window.onload = function () {
     video.onended = function(){document.getElementById("down").removeChild(video)};
   }, timer : 4});
   
-  sync.add({funct : function(){dialog.write(text[0])}, timer : 18});//0:24
+  sync.add({funct : function(){dialog.write(text[0])}, timer : 20});//0:24
   sync.add({funct : function(){
     document.getElementById("down").appendChild(tuc);
     setTimeout(function(){document.getElementById("down").removeChild(tuc);},8000);
@@ -132,16 +136,23 @@ window.onload = function () {
   sync.add({funct : function(){dialog.write(text[13])}, timer : 0});//1.31
   sync.add({funct : function(){dialog.write(text[14])}, timer : 5});//1.36
   sync.add({funct : function(){dialog.write(text[15])}, timer : 0});//1.36
-  sync.add({funct : function(){dialog.write(text[16])}, timer : 13});//1.49
-  sync.add({funct : function(){dialog.write(text[17])}, timer : 0});//1.49
-  sync.add({funct : function(){dialog.write(text[18])}, timer : 9});//1.58
+  /*/1.49
+  
+  //1.27 
+  audio.currentTime = 87;
+  sync.add({funct : function(){audio.play();}, timer : 0});*/
+  sync.add({funct : function(){dialog.write(text[52])}, timer : 8});//1.36 AMPIA RISATA
+  sync.add({funct : function(){dialog.write(text[16])}, timer : 4});//1.40 
+  sync.add({funct : function(){dialog.write(text[17])}, timer : 0});//1.40
+  sync.add({funct : function(){dialog.write(text[18])}, timer : 10});//1.52
+  sync.add({funct : function(){dialog.write(text[53])}, timer : 0});
   
   sync.add({funct : function(){
     document.getElementById("down").appendChild(pdoc);
     setTimeout(function(){document.getElementById("down").removeChild(pdoc);},5000);
   }, timer : 0});
   
-  sync.add({funct : function(){dialog.write(text[19])}, timer : 2});//2.00
+  sync.add({funct : function(){dialog.write(text[19])}, timer : 7});//1.58
   sync.add({funct : function(){dialog.write(text[20])}, timer : 0});//2.00
   sync.add({funct : function(){dialog.write(text[21])}, timer : 5});//2.05
   sync.add({funct : function(){dialog.write(text[22])}, timer : 0});//2.05
